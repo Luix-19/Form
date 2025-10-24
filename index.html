@@ -1,17 +1,24 @@
 <!DOCTYPE html>
-<html>
-<body>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=5.0">
 
 <h2>Fomulário de Atividade</h2>
 
 <form action="">
+    <fieldset>
   <label for="Nome">Digite seu Nome:</label>
   <input type="texto" id="Nome" name="Nome" value="" placeholder="Digite seu nome"><br>
   <label for="Cidade">Informe sua Cidade:</label>
   <input type="texto" id="Cidade" name="Cidade" value="" placeholder="Digite sua cidade"><br>
   <label for="Telefone">Telefone de Contato:</label>
   <input type="texto" id="Telefone de Contato" value="" placeholder="Digite seu número"><br>
-  <input type="submit" value="Submit">
+  <input type="submit" value="Apagar">
+</fieldset>
 </form> 
 
 <hr>
@@ -23,10 +30,12 @@
 <p>Escolha seu Gênero</p>
 
 <form>
+    <fieldset>
   <input type="radio" id="Masculino" name="Gênero" value="Masculino">
-  <label for="Masculino">Masculino</label><br>
+  <label for="Masculino">Masculino</label>
   <input type="radio" id="Femenino" name="Gênero" value="Femenino">
-  <label for="Femenino">Femenino</label><br>
+  <label for="Femenino">Femenino</label>
+    </fieldset>
 </form> 
 
 <hr>
@@ -38,6 +47,7 @@
 <p>Escolha seus Interesses</p>
 
 <form>
+    <fieldset>
     <input type="checkbox" id="Escolha1" name="Escolha1" value="Jogar">
     <label for="Escolha1">Jogar</label><br>
     <input type="checkbox" id="Escolha2" name="Escolha2" value="Música">
@@ -46,6 +56,7 @@
     <label for="Escolha1">sair com os amigos</label><br>
             <input type="checkbox" id="Escolha4" name="Escolha4" value="Roubar">
     <label for="Escolha1">Roubar</label><br>
+    </fieldset>
 </form>
 </html>
 </body>
